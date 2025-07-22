@@ -2,7 +2,7 @@
 
 #### 開発タスク一覧
 
-**1. 環境セットアップ**
+**1. `環境セットアップ`**
 - Cargo.tomlに依存関係追加（clap, windows-rs, serde, toml, anyhow）
 - プロジェクト構造作成（bluetooth/mod.rs, config/mod.rs, cli/mod.rs）
 
