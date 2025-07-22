@@ -1,0 +1,2324 @@
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException
+.Name : The term '.Name' is not recognized as the name of a cmdlet, function, s
+cript file, or operable program. Check the spelling of the name, or if a path w
+as included, verify that the path is correct and try again.
+At line:1 char:54
++ Get-WmiObject -Class Win32_PnPEntity | Where-Object {.Name -like '*bl ...
++                                                      ~~~~~
+    + CategoryInfo          : ObjectNotFound: (.Name:String) [], CommandNotFou
+   ndException
+    + FullyQualifiedErrorId : CommandNotFoundException

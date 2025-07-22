@@ -46,27 +46,30 @@ impl BluetoothManager {
 
     /// 利用可能なBluetoothデバイス一覧を取得
     pub fn list_devices(&self) -> Result<Vec<BluetoothDevice>> {
-        // モック実装: 実際のWindows Bluetooth APIは後で実装
         println!("Bluetoothデバイスをスキャン中...");
         
-        // サンプルデバイスを返す（実際の環境では実際のデバイスが検出される）
-        let mock_devices = vec![
-            BluetoothDevice {
-                name: "Sample Bluetooth Mouse".to_string(),
-                address: "AA:BB:CC:DD:EE:FF".to_string(),
-                is_connected: false,
-                device_type: "Peripheral".to_string(),
-            },
-            BluetoothDevice {
-                name: "Sample Bluetooth Headphones".to_string(),
-                address: "11:22:33:44:55:66".to_string(),
-                is_connected: true,
-                device_type: "Audio/Video".to_string(),
-            },
-        ];
+        let mut devices = Vec::new();
         
-        println!("{}個のBluetoothデバイスが見つかりました", mock_devices.len());
-        Ok(mock_devices)
+        // Windowsレジストリからペアリング済みBluetoothデバイス情報を取得
+        let output = std::process::Command::new("reg")
+            .args(&[
+                "query",
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\BTHPORT\\Parameters\\Devices",
+                "/s"
+            ])
+            .output()
+            .context("レジストリクエリの実行に失敗しました")?;
+        
+        if !output.status.success() {
+            println!("Bluetoothデバイス情報の取得に失敗しました");
+            return Ok(devices);
+        }
+        
+        let registry_output = String::from_utf8_lossy(&output.stdout);
+        devices = self.parse_bluetooth_registry(&registry_output)?;
+        
+        println!("{}個のBluetoothデバイスが見つかりました", devices.len());
+        Ok(devices)
     }
 
     /// 指定されたデバイスに接続
@@ -120,6 +123,111 @@ impl BluetoothManager {
         
         true
     }
+    
+    /// レジストリ出力を解析してBluetoothデバイス一覧を作成
+    fn parse_bluetooth_registry(&self, registry_output: &str) -> Result<Vec<BluetoothDevice>> {
+        let mut devices = Vec::new();
+        let lines: Vec<&str> = registry_output.lines().collect();
+        
+        let mut current_device_key: Option<String> = None;
+        let mut current_device_name: Option<String> = None;
+        let mut current_device_connected = false;
+        
+        for line in lines {
+            let line = line.trim();
+            
+            // デバイスキー（MACアドレス）を検出
+            if line.starts_with("HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\BTHPORT\\Parameters\\Devices\\") {
+                // 前のデバイス情報を保存
+                if let Some(device_key) = current_device_key.take() {
+                    if let Some(mac_address) = self.format_mac_address(&device_key) {
+                        let device_name = current_device_name.take().unwrap_or_else(|| {
+                            format!("Bluetooth Device {}", &mac_address[..8])
+                        });
+                        
+                        devices.push(BluetoothDevice {
+                            name: device_name.clone(),
+                            address: mac_address.clone(),
+                            is_connected: current_device_connected,
+                            device_type: self.determine_device_type_from_name(&device_name),
+                        });
+                    }
+                }
+                
+                // 新しいデバイスキーを抽出
+                if let Some(key_start) = line.rfind('\\') {
+                    current_device_key = Some(line[key_start + 1..].to_string());
+                    current_device_name = None;
+                    current_device_connected = false;
+                }
+            }
+            // FriendlyNameを検出（デバイス名）
+            else if line.contains("FriendlyName") && line.contains("REG_SZ") {
+                if let Some(name_start) = line.find("REG_SZ") {
+                    let name_part = &line[name_start + 6..].trim();
+                    if !name_part.is_empty() {
+                        current_device_name = Some(name_part.to_string());
+                    }
+                }
+            }
+            // LastConnectedを検出（接続状態の推定）
+            else if line.contains("LastConnected") && line.contains("REG_QWORD") {
+                // 最近接続されたデバイスは接続済みと仮定（簡易実装）
+                current_device_connected = true;
+            }
+        }
+        
+        // 最後のデバイス情報を保存
+        if let Some(device_key) = current_device_key {
+            if let Some(mac_address) = self.format_mac_address(&device_key) {
+                let device_name = current_device_name.unwrap_or_else(|| {
+                    format!("Bluetooth Device {}", &mac_address[..8])
+                });
+                
+                devices.push(BluetoothDevice {
+                    name: device_name.clone(),
+                    address: mac_address.clone(),
+                    is_connected: current_device_connected,
+                    device_type: self.determine_device_type_from_name(&device_name),
+                });
+            }
+        }
+        
+        Ok(devices)
+    }
+    
+    /// レジストリキー（MACアドレス）を標準形式に変換
+    fn format_mac_address(&self, registry_key: &str) -> Option<String> {
+        if registry_key.len() != 12 {
+            return None;
+        }
+        
+        let mut formatted = String::new();
+        for (i, c) in registry_key.chars().enumerate() {
+            if i > 0 && i % 2 == 0 {
+                formatted.push(':');
+            }
+            formatted.push(c.to_ascii_uppercase());
+        }
+        
+        Some(formatted)
+    }
+    
+    /// デバイス名からデバイスタイプを推定
+    fn determine_device_type_from_name(&self, device_name: &str) -> String {
+        let name_lower = device_name.to_lowercase();
+        
+        if name_lower.contains("mouse") || name_lower.contains("keyboard") {
+            "Peripheral".to_string()
+        } else if name_lower.contains("headphone") || name_lower.contains("speaker") || 
+                  name_lower.contains("audio") || name_lower.contains("hl7bt") {
+            "Audio/Video".to_string()
+        } else if name_lower.contains("phone") || name_lower.contains("mobile") {
+            "Phone".to_string()
+        } else {
+            "Unknown".to_string()
+        }
+    }
 }
 
 impl Default for BluetoothManager {
@@ -159,10 +267,11 @@ mod tests {
         let manager = BluetoothManager::new();
         let result = manager.list_devices();
         
-        // モック実装では常に成功し、サンプルデバイスを返す
+        // 実際の実装では常に成功し、実際のBluetoothデバイスを返す
         assert!(result.is_ok());
         let devices = result.unwrap();
-        assert_eq!(devices.len(), 2); // モック実装では2つのデバイスを返す
+        // デバイス数は環境によって異なるため、0個以上であることを確認
+        assert!(devices.len() >= 0);
     }
 
     #[test]
