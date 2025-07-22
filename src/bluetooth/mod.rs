@@ -127,3 +127,94 @@ impl Default for BluetoothManager {
         Self::new()
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_bluetooth_device_creation() {
+        let device = BluetoothDevice {
+            name: "Test Device".to_string(),
+            address: "AA:BB:CC:DD:EE:FF".to_string(),
+            is_connected: false,
+            device_type: "Test".to_string(),
+        };
+        
+        assert_eq!(device.name, "Test Device");
+        assert_eq!(device.address, "AA:BB:CC:DD:EE:FF");
+        assert!(!device.is_connected);
+        assert_eq!(device.device_type, "Test");
+    }
+
+    #[test]
+    fn test_bluetooth_manager_creation() {
+        let manager = BluetoothManager::new();
+        // マネージャーが正常に作成されることを確認
+        assert!(true); // 基本的な作成テスト
+    }
+
+    #[test]
+    fn test_list_devices() {
+        let manager = BluetoothManager::new();
+        let result = manager.list_devices();
+        
+        // モック実装では常に成功し、サンプルデバイスを返す
+        assert!(result.is_ok());
+        let devices = result.unwrap();
+        assert_eq!(devices.len(), 2); // モック実装では2つのデバイスを返す
+    }
+
+    #[test]
+    fn test_valid_mac_address() {
+        let manager = BluetoothManager::new();
+        
+        // 有効なMACアドレス
+        assert!(manager.is_valid_mac_address("AA:BB:CC:DD:EE:FF"));
+        assert!(manager.is_valid_mac_address("00:11:22:33:44:55"));
+        assert!(manager.is_valid_mac_address("FF:FF:FF:FF:FF:FF"));
+        
+        // 無効なMACアドレス
+        assert!(!manager.is_valid_mac_address("AA:BB:CC:DD:EE"));     // 短い
+        assert!(!manager.is_valid_mac_address("AA:BB:CC:DD:EE:FF:GG")); // 長い
+        assert!(!manager.is_valid_mac_address("AA-BB-CC-DD-EE-FF"));   // 区切り文字が違う
+        assert!(!manager.is_valid_mac_address("GG:HH:II:JJ:KK:LL"));   // 無効な16進数
+        assert!(!manager.is_valid_mac_address(""));                    // 空文字
+    }
+
+    #[test]
+    fn test_connect_device_with_valid_address() {
+        let manager = BluetoothManager::new();
+        let result = manager.connect_device("AA:BB:CC:DD:EE:FF");
+        
+        // モック実装では有効なMACアドレスで成功する
+        assert!(result.is_ok());
+    }
+
+    #[test]
+    fn test_connect_device_with_invalid_address() {
+        let manager = BluetoothManager::new();
+        let result = manager.connect_device("invalid-address");
+        
+        // 無効なMACアドレスではエラーになる
+        assert!(result.is_err());
+    }
+
+    #[test]
+    fn test_disconnect_device_with_valid_address() {
+        let manager = BluetoothManager::new();
+        let result = manager.disconnect_device("AA:BB:CC:DD:EE:FF");
+        
+        // モック実装では有効なMACアドレスで成功する
+        assert!(result.is_ok());
+    }
+
+    #[test]
+    fn test_disconnect_device_with_invalid_address() {
+        let manager = BluetoothManager::new();
+        let result = manager.disconnect_device("invalid-address");
+        
+        // 無効なMACアドレスではエラーになる
+        assert!(result.is_err());
+    }
+}
