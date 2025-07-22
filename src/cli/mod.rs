@@ -4,6 +4,7 @@
 use anyhow::Result;
 use clap::{Parser, Subcommand};
 use crate::config::{AppConfig, get_config_path};
+use crate::bluetooth::BluetoothManager;
 
 /// Bluetoothデバイス接続管理ツール
 #[derive(Parser)]
@@ -119,14 +120,39 @@ fn handle_list_command(registered_only: bool) -> Result<()> {
         }
     } else {
         println!("=== 利用可能なBluetoothデバイス一覧 ===");
-        println!("注意: 実際のBluetooth APIはまだ実装されていません。");
-        println!("現在は登録済みデバイスのみ表示します。\n");
         
-        // 登録済みデバイスを表示
-        if config.registered_devices.is_empty() {
-            println!("登録済みデバイスはありません。");
-        } else {
-            println!("登録済みデバイス:");
+        // Bluetoothマネージャーを使用してデバイス一覧を取得
+        let bluetooth_manager = BluetoothManager::new();
+        match bluetooth_manager.list_devices() {
+            Ok(bluetooth_devices) => {
+                if bluetooth_devices.is_empty() {
+                    println!("利用可能なBluetoothデバイスが見つかりませんでした。");
+                } else {
+                    println!("検出されたBluetoothデバイス:");
+                    for device in &bluetooth_devices {
+                        let connection_status = if device.is_connected { " [接続済み]" } else { "" };
+                        let is_registered = config.registered_devices.iter()
+                            .any(|reg_dev| reg_dev.address == device.address);
+                        let registered_mark = if is_registered { " [登録済み]" } else { "" };
+                        
+                        println!("  - {} ({}){}{}", 
+                            device.name, 
+                            device.address, 
+                            connection_status,
+                            registered_mark
+                        );
+                        println!("    タイプ: {}", device.device_type);
+                    }
+                }
+            }
+            Err(e) => {
+                println!("Bluetoothデバイスの取得に失敗しました: {}", e);
+            }
+        }
+        
+        // 登録済みデバイスも表示
+        if !config.registered_devices.is_empty() {
+            println!("\n登録済みデバイス:");
             for device in &config.registered_devices {
                 let is_default = config.default_device.as_ref() == Some(&device.address);
                 let default_mark = if is_default { " [デフォルト]" } else { "" };
@@ -220,21 +246,93 @@ fn handle_status_command() -> Result<()> {
 
 /// connectコマンドの処理
 fn handle_connect_command(address: Option<String>) -> Result<()> {
-    match address {
-        Some(addr) => println!("デバイス {} に接続中...", addr),
-        None => println!("デフォルトデバイスに接続中..."),
+    let config_path = get_config_path()?;
+    let config = if config_path.exists() {
+        AppConfig::load_from_file(&config_path)?
+    } else {
+        AppConfig::default()
+    };
+    
+    let target_address = match address {
+        Some(addr) => addr,
+        None => {
+            match config.default_device {
+                Some(default_addr) => {
+                    println!("デフォルトデバイスに接続します: {}", default_addr);
+                    default_addr
+                }
+                None => {
+                    println!("デフォルトデバイスが設定されていません。");
+                    println!("使用方法: connect <MACアドレス> または set-default でデフォルトデバイスを設定してください。");
+                    return Ok(());
+                }
+            }
+        }
+    };
+    
+    // Bluetoothマネージャーを使用して接続
+    let bluetooth_manager = BluetoothManager::new();
+    match bluetooth_manager.connect_device(&target_address) {
+        Ok(()) => {
+            println!("接続が完了しました。");
+            
+            // 接続成功時に最終接続時刻を更新（設定ファイルに保存）
+            // TODO: 実際の実装では現在時刻を記録
+        }
+        Err(e) => {
+            println!("接続に失敗しました: {}", e);
+        }
     }
-    // TODO: 実際の接続処理を実装
+    
     Ok(())
 }
 
 /// disconnectコマンドの処理
 fn handle_disconnect_command(address: Option<String>) -> Result<()> {
+    let bluetooth_manager = BluetoothManager::new();
+    
     match address {
-        Some(addr) => println!("デバイス {} から切断中...", addr),
-        None => println!("すべてのデバイスから切断中..."),
+        Some(addr) => {
+            // 指定されたデバイスから切断
+            match bluetooth_manager.disconnect_device(&addr) {
+                Ok(()) => {
+                    println!("切断が完了しました。");
+                }
+                Err(e) => {
+                    println!("切断に失敗しました: {}", e);
+                }
+            }
+        }
+        None => {
+            // すべての接続済みデバイスから切断
+            println!("すべての接続済みデバイスから切断中...");
+            
+            // 接続済みデバイス一覧を取得
+            match bluetooth_manager.list_devices() {
+                Ok(devices) => {
+                    let connected_devices: Vec<_> = devices.into_iter()
+                        .filter(|d| d.is_connected)
+                        .collect();
+                    
+                    if connected_devices.is_empty() {
+                        println!("接続済みのデバイスはありません。");
+                    } else {
+                        for device in connected_devices {
+                            println!("デバイス {} から切断中...", device.name);
+                            if let Err(e) = bluetooth_manager.disconnect_device(&device.address) {
+                                println!("デバイス {} の切断に失敗しました: {}", device.name, e);
+                            }
+                        }
+                        println!("すべてのデバイスからの切断処理が完了しました。");
+                    }
+                }
+                Err(e) => {
+                    println!("デバイス一覧の取得に失敗しました: {}", e);
+                }
+            }
+        }
     }
-    // TODO: 実際の切断処理を実装
+    
     Ok(())
 }
 
@@ -267,7 +365,56 @@ fn handle_set_default_command(address: String) -> Result<()> {
 
 /// デフォルト動作（コマンド未指定時）
 fn handle_default_action() -> Result<()> {
-    println!("デフォルト動作: 自動接続を実行中...");
-    // TODO: 実際の自動接続処理を実装
+    println!("=== Bluetoothデバイス自動接続 ===");
+    
+    let config_path = get_config_path()?;
+    let config = if config_path.exists() {
+        AppConfig::load_from_file(&config_path)?
+    } else {
+        println!("設定ファイルが存在しません。初期化してください。");
+        return Ok(());
+    };
+    
+    // 自動接続が無効の場合
+    if !config.auto_connect {
+        println!("自動接続が無効になっています。");
+        println!("使用方法:");
+        println!("  list                    - デバイス一覧を表示");
+        println!("  register -a <address>   - デバイスを登録");
+        println!("  connect [address]       - デバイスに接続");
+        println!("  status                  - 現在の状態を表示");
+        return Ok(());
+    }
+    
+    // デフォルトデバイスが設定されている場合
+    if let Some(default_address) = &config.default_device {
+        println!("デフォルトデバイスに自動接続します: {}", default_address);
+        
+        let bluetooth_manager = BluetoothManager::new();
+        match bluetooth_manager.connect_device(default_address) {
+            Ok(()) => {
+                println!("自動接続が完了しました。");
+            }
+            Err(e) => {
+                println!("自動接続に失敗しました: {}", e);
+                println!("手動で接続を試行してください。");
+            }
+        }
+    } else {
+        println!("デフォルトデバイスが設定されていません。");
+        
+        // 登録済みデバイスがある場合は選択肢を表示
+        if !config.registered_devices.is_empty() {
+            println!("登録済みデバイス:");
+            for (index, device) in config.registered_devices.iter().enumerate() {
+                println!("  {}. {} ({})", index + 1, device.name, device.address);
+            }
+            println!("\nset-default コマンドでデフォルトデバイスを設定してください。");
+        } else {
+            println!("登録済みデバイスがありません。");
+            println!("まず register コマンドでデバイスを登録してください。");
+        }
+    }
+    
     Ok(())
 }

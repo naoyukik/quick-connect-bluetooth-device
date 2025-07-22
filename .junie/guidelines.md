@@ -51,6 +51,7 @@ cargo test --verbose
 - **Unit Tests**: Located in `#[cfg(test)]` modules within source files
 - **Test Location**: Currently in `src/main.rs` under the `tests` module
 - **Test Framework**: Uses Rust's built-in testing framework
+- **Test Driven Development**: t-wada style TDD
 
 ### Adding New Tests
 1. Add test functions within existing `#[cfg(test)]` modules:
