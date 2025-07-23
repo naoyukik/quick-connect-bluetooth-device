@@ -47,9 +47,9 @@ impl BluetoothManager {
     /// 利用可能なBluetoothデバイス一覧を取得
     pub fn list_devices(&self) -> Result<Vec<BluetoothDevice>> {
         println!("Bluetoothデバイスをスキャン中...");
-        
+
         let mut devices = Vec::new();
-        
+
         // Windowsレジストリからペアリング済みBluetoothデバイス情報を取得
         let output = std::process::Command::new("reg")
             .args(&[
@@ -59,15 +59,15 @@ impl BluetoothManager {
             ])
             .output()
             .context("レジストリクエリの実行に失敗しました")?;
-        
+
         if !output.status.success() {
             println!("Bluetoothデバイス情報の取得に失敗しました");
             return Ok(devices);
         }
-        
+
         let registry_output = String::from_utf8_lossy(&output.stdout);
         devices = self.parse_bluetooth_registry(&registry_output)?;
-        
+
         println!("{}個のBluetoothデバイスが見つかりました", devices.len());
         Ok(devices)
     }
@@ -76,12 +76,12 @@ impl BluetoothManager {
     pub fn connect_device(&self, address: &str) -> Result<()> {
         // モック実装: 実際のWindows Bluetooth APIは後で実装
         println!("デバイス {} に接続を試行中...", address);
-        
+
         // MACアドレスの形式を簡単にチェック
         if !self.is_valid_mac_address(address) {
             return Err(anyhow::anyhow!("無効なMACアドレス形式です: {}", address));
         }
-        
+
         // 接続シミュレーション
         std::thread::sleep(std::time::Duration::from_millis(500));
         println!("デバイス {} に正常に接続しました", address);
@@ -92,18 +92,18 @@ impl BluetoothManager {
     pub fn disconnect_device(&self, address: &str) -> Result<()> {
         // モック実装: 実際のWindows Bluetooth APIは後で実装
         println!("デバイス {} から切断中...", address);
-        
+
         // MACアドレスの形式を簡単にチェック
         if !self.is_valid_mac_address(address) {
             return Err(anyhow::anyhow!("無効なMACアドレス形式です: {}", address));
         }
-        
+
         // 切断シミュレーション
         std::thread::sleep(std::time::Duration::from_millis(300));
         println!("デバイス {} から正常に切断しました", address);
         Ok(())
     }
-    
+
     /// MACアドレスの形式をチェック
     fn is_valid_mac_address(&self, address: &str) -> bool {
         // 簡単な形式チェック: XX:XX:XX:XX:XX:XX
@@ -111,7 +111,7 @@ impl BluetoothManager {
         if parts.len() != 6 {
             return false;
         }
-        
+
         for part in parts {
             if part.len() != 2 {
                 return false;
@@ -120,22 +120,22 @@ impl BluetoothManager {
                 return false;
             }
         }
-        
+
         true
     }
-    
+
     /// レジストリ出力を解析してBluetoothデバイス一覧を作成
     fn parse_bluetooth_registry(&self, registry_output: &str) -> Result<Vec<BluetoothDevice>> {
         let mut devices = Vec::new();
         let lines: Vec<&str> = registry_output.lines().collect();
-        
+
         let mut current_device_key: Option<String> = None;
         let mut current_device_name: Option<String> = None;
         let mut current_device_connected = false;
-        
+
         for line in lines {
             let line = line.trim();
-            
+
             // デバイスキー（MACアドレス）を検出
             if line.starts_with("HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\BTHPORT\\Parameters\\Devices\\") {
                 // 前のデバイス情報を保存
@@ -144,7 +144,7 @@ impl BluetoothManager {
                         let device_name = current_device_name.take().unwrap_or_else(|| {
                             format!("Bluetooth Device {}", &mac_address[..8])
                         });
-                        
+
                         devices.push(BluetoothDevice {
                             name: device_name.clone(),
                             address: mac_address.clone(),
@@ -153,7 +153,7 @@ impl BluetoothManager {
                         });
                     }
                 }
-                
+
                 // 新しいデバイスキーを抽出
                 if let Some(key_start) = line.rfind('\\') {
                     current_device_key = Some(line[key_start + 1..].to_string());
@@ -176,14 +176,14 @@ impl BluetoothManager {
                 current_device_connected = true;
             }
         }
-        
+
         // 最後のデバイス情報を保存
         if let Some(device_key) = current_device_key {
             if let Some(mac_address) = self.format_mac_address(&device_key) {
                 let device_name = current_device_name.unwrap_or_else(|| {
                     format!("Bluetooth Device {}", &mac_address[..8])
                 });
-                
+
                 devices.push(BluetoothDevice {
                     name: device_name.clone(),
                     address: mac_address.clone(),
@@ -192,16 +192,16 @@ impl BluetoothManager {
                 });
             }
         }
-        
+
         Ok(devices)
     }
-    
+
     /// レジストリキー（MACアドレス）を標準形式に変換
     fn format_mac_address(&self, registry_key: &str) -> Option<String> {
         if registry_key.len() != 12 {
             return None;
         }
-        
+
         let mut formatted = String::new();
         for (i, c) in registry_key.chars().enumerate() {
             if i > 0 && i % 2 == 0 {
@@ -209,18 +209,18 @@ impl BluetoothManager {
             }
             formatted.push(c.to_ascii_uppercase());
         }
-        
+
         Some(formatted)
     }
-    
+
     /// デバイス名からデバイスタイプを推定
     fn determine_device_type_from_name(&self, device_name: &str) -> String {
         let name_lower = device_name.to_lowercase();
-        
+
         if name_lower.contains("mouse") || name_lower.contains("keyboard") {
             "Peripheral".to_string()
-        } else if name_lower.contains("headphone") || name_lower.contains("speaker") || 
-                  name_lower.contains("audio") || name_lower.contains("hl7bt") {
+        } else if name_lower.contains("headphone") || name_lower.contains("speaker") ||
+            name_lower.contains("audio") || name_lower.contains("hl7bt") {
             "Audio/Video".to_string()
         } else if name_lower.contains("phone") || name_lower.contains("mobile") {
             "Phone".to_string()
@@ -248,7 +248,7 @@ mod tests {
             is_connected: false,
             device_type: "Test".to_string(),
         };
-        
+
         assert_eq!(device.name, "Test Device");
         assert_eq!(device.address, "AA:BB:CC:DD:EE:FF");
         assert!(!device.is_connected);
@@ -266,7 +266,7 @@ mod tests {
     fn test_list_devices() {
         let manager = BluetoothManager::new();
         let result = manager.list_devices();
-        
+
         // 実際の実装では常に成功し、実際のBluetoothデバイスを返す
         assert!(result.is_ok());
         let devices = result.unwrap();
@@ -277,12 +277,12 @@ mod tests {
     #[test]
     fn test_valid_mac_address() {
         let manager = BluetoothManager::new();
-        
+
         // 有効なMACアドレス
         assert!(manager.is_valid_mac_address("AA:BB:CC:DD:EE:FF"));
         assert!(manager.is_valid_mac_address("00:11:22:33:44:55"));
         assert!(manager.is_valid_mac_address("FF:FF:FF:FF:FF:FF"));
-        
+
         // 無効なMACアドレス
         assert!(!manager.is_valid_mac_address("AA:BB:CC:DD:EE"));     // 短い
         assert!(!manager.is_valid_mac_address("AA:BB:CC:DD:EE:FF:GG")); // 長い
@@ -295,7 +295,7 @@ mod tests {
     fn test_connect_device_with_valid_address() {
         let manager = BluetoothManager::new();
         let result = manager.connect_device("AA:BB:CC:DD:EE:FF");
-        
+
         // モック実装では有効なMACアドレスで成功する
         assert!(result.is_ok());
     }
@@ -304,7 +304,7 @@ mod tests {
     fn test_connect_device_with_invalid_address() {
         let manager = BluetoothManager::new();
         let result = manager.connect_device("invalid-address");
-        
+
         // 無効なMACアドレスではエラーになる
         assert!(result.is_err());
     }
@@ -313,7 +313,7 @@ mod tests {
     fn test_disconnect_device_with_valid_address() {
         let manager = BluetoothManager::new();
         let result = manager.disconnect_device("AA:BB:CC:DD:EE:FF");
-        
+
         // モック実装では有効なMACアドレスで成功する
         assert!(result.is_ok());
     }
@@ -322,7 +322,7 @@ mod tests {
     fn test_disconnect_device_with_invalid_address() {
         let manager = BluetoothManager::new();
         let result = manager.disconnect_device("invalid-address");
-        
+
         // 無効なMACアドレスではエラーになる
         assert!(result.is_err());
     }
